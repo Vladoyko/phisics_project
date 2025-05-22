@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Головна сторінка</title>
+    <link rel="shortcut icon" href="{{ url_for('static', filename='icon.ico') }}" type="image/x-icon">
+    <link rel="stylesheet" href="{{ url_for('static',filename='style.css') }}">
+</head>
+<body>
+    <div class="maindiv">
+        <div class="Text">
+            <h1>Тисніть, аби завантажити архів із симулятором</h1>
+            <div class="mtext">
+                <h5>1. Завантаж архів</h5>
+                <h5>2. Розпакуй його</h5>
+                <h5>4. Запусти "Симулятор.exe" у папці</h5>
+                <h5>5. Нічого сам не міняй і не видаляй</h5>
+                <h5>6. Приємного використання !</h5>
+            </div>
+        </div>
+        <div class="container">
+            <form action="/download" method="get">
+                <button type="submit">Завантажити архів</button>
+            </form>
+        </div>
+    </div>
+    <h6>Створено для учнівського проєкту у 2025 році</h6>
+</body>
+</html>

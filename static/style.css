@@ -1,0 +1,32 @@
+.container {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.Text {
+    margin-top:10%;
+    text-align:center;
+}
+
+body {
+    background-color:#e0e0eb;
+}
+
+h6 {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width:100%
+}
+
+.mtext {
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    color:#404040;
+}
+
+h5{
+    margin: 0px 0px;
+}
